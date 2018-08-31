@@ -1,0 +1,36 @@
+@import '../base/colors';
+@import '../base/variables';
+
+%parallax {
+
+	height: 500px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+%slider_padding {
+
+	padding: 200px 0;
+    text-align: center;
+
+}
+%title_text {
+
+	font-size: $title;
+	letter-spacing: 5px;
+	text-transform: uppercase;
+	font-weight: bolder;
+	opacity: 0.8;
+
+}
+%title_text_2 {
+	
+	font-size: $title_two;
+	color: $primary_color;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+}
+%title_text_3 {}
+%title_text_4 {}

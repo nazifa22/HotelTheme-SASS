@@ -1,0 +1,43 @@
+body {
+  font-family: "Kosugi Maru", sans-serif; }
+
+/*header*/
+.navbar .bg-light .menu {
+  position: fixed !important;
+  width: 100% !important;
+  z-index: 1 !important;
+  background: transparent !important; }
+  .navbar .bg-light .menu ul li a {
+    color: red; }
+  .navbar .bg-light .menu .logo img {
+    width: 50%; }
+
+/*header*/
+/*slider*/
+.slider_section .parallax:nth-child(1) {
+  background-image: url("../../assets/img/slider-1.jpg"); }
+
+.slider_section .parallax:nth-child(2) {
+  background-image: url("../../assets/img/slider-2.jpg"); }
+
+.slider_section .parallax:nth-child(3) {
+  background-image: url("../../assets/img/slider-3.jpg"); }
+
+.random {
+  border: 1px solid; }
+
+/*slider*/
+/*counterup*/
+.counter {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-delay: 0s;
+  animation-delay: 0s; }
+
+/*counterup*/
+.slider_section .parallax:nth-child(1), .slider_section .parallax:nth-child(2), .slider_section .parallax:nth-child(3) {
+  height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }

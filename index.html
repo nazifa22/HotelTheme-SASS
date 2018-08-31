@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>SASS</title>
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Kosugi+Maru" rel="stylesheet">
+	<!-- Font Awesome CDN -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+	<!-- Animate CSS -->
+	<link rel="stylesheet" href="assets/css/animate.css">
+	<!-- Bootstrap CDN -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<!-- Main Stylesheet -->
+	<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+	<!-- header -->
+	<header>
+		<nav class="navbar navbar-expand-lg navbar-light bg-light menu">
+		  <a class="navbar-brand logo" href="#"><img src="assets/img/logo-hostel.png" alt="logo"></a>
+		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		    <span class="navbar-toggler-icon"></span>
+		  </button>
+
+		  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+		    <ul class="navbar-nav ml-auto">
+		      <li class="nav-item active">
+		        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link" href="#">Pages</a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link" href="#">Rooms</a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link" href="#">Reservation</a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link" href="#">Blog</a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link" href="#">Shortcode</a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link" href="#"><i class="fas fa-search"></i></a>
+		      </li>
+		    </ul>
+		  </div>
+		</nav>
+	</header>
+	<!-- header -->
+	<!-- slider section -->
+	<section class="slider_section"> 
+		<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+		  <ol class="carousel-indicators">
+		    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+		    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+		    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+		  </ol>
+		  <div class="carousel-inner">
+		    <div class="carousel-item active parallax">
+		      <div class="container">
+		      	<div class="row">
+		      		<div class="col-md-12 col-sm-12 col-lg-12 col-xs-12">
+		      			<div class="wow fadeInUp animated">
+		      				<h1> <span>This is the best</span><br>Room Reservation</h1>
+		      			</div>
+		      		</div>
+		      	</div>
+		      </div>
+		    </div>
+		    <div class="carousel-item parallax">
+		      <div class="container">
+			      	<div class="row">
+			      		<div class="col-md-12 col-sm-12 col-lg-12 col-xs-12">
+			      			<div class="wow fadeInUp animated">
+			      				<h1>Enjoy the city</h1>
+			      				<p>And Explore New Experiences</p>
+			      			</div>
+			      		</div>
+			      	</div>
+		      </div>
+		    </div>
+		    <div class="carousel-item parallax">
+		      <div class="container">
+		      	<div class="row">
+		      		<div class="col-md-12 col-sm-12 col-lg-12 col-xs-12">
+		      			<div class="wow fadeInUp animated">
+		      				<h1>New Friends &nbsp; New Cultres <br>
+								<span>New Experiences</span>
+		      				</h1>
+		      			</div>
+		      		</div>
+		      	</div>
+		      </div>
+		    </div>
+		  </div>
+		  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+		    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+		    <span class="sr-only">Previous</span>
+		  </a>
+		  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+		    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+		    <span class="sr-only">Next</span>
+		  </a>
+		</div>
+	</section>
+	<!-- slider section -->
+	<!-- from section -->
+	<section class="form_section">
+		<div class="container  wow animated fadeInUp">
+			<h3>CHECK AVAILABILITY</h3>
+			<div class="row">
+				<div class="col-md-4 col-lg-4 col-sm-4 col-xs-12">
+					<form>
+					  <div class="form-group">
+					    <label for="exampleInputEmail1">Chech In</label>
+					    <input type="text" data-dfm="d M yy" class="form-control" id="" placeholder="2018-05-10">
+					  </div>
+					</form>
+				</div>
+				<div class="col-md-4 col-lg-4 col-sm-4 col-xs-12">
+					<form>
+					  <div class="form-group">
+					    <label for="exampleInputEmail1">Chech In</label>
+					    <input type="text" data-dfm="d M yy" class="form-control" id="" placeholder="2018-10-10">
+					  </div>
+					</form>
+				</div>
+				<div class="col-md-4 col-lg-4 col-sm-4 col-xs-12">
+					<form>
+					  <div class="form-group">
+					    <input class="btn btn-dark" type="submit" value="CHECK AVAILABILITY">
+					  </div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- from section -->
+	<!-- services section -->
+	<section class="service_section">
+		<div class="container  wow animated fadeInUp">
+			<div class="row">
+				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+					<img src="assets/img/hostel-service-1.png" alt="">
+					<h4>MIDDLE OF DOWNTOWN</h4>
+					<p>Morbi leo risus, porta ac consectetur ac, vesti bulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum.</p>
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+					<img src="assets/img/hostel-service-2.png" alt="">
+					<h4>GREAT ENVIRONMENT</h4>
+					<p>Morbi leo risus, porta ac consectetur ac, vesti bulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum.</p>
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+					<img src="assets/img/hostel-service-3.png" alt="">
+					<h4>FREE BREAKFAST</h4>
+					<p>Morbi leo risus, porta ac consectetur ac, vesti bulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum.</p>
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+					<img src="assets/img/hostel-service-4.png" alt="">
+					<h4>WE CLEAN EVERYDAY</h4>
+					<p>Morbi leo risus, porta ac consectetur ac, vesti bulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum.</p>
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+					<img src="assets/img/hostel-service-5.png" alt="">
+					<h4>ENJOY NIGHTLIFE</h4>
+					<p>Morbi leo risus, porta ac consectetur ac, vesti bulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum.</p>
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+					<img src="assets/img/hostel-service-6.png" alt="">
+					<h4>MEET NEW PEOPLE</h4>
+					<p>Morbi leo risus, porta ac consectetur ac, vesti bulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum.</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- service section -->
+	<!-- room section -->
+	<section class="room_section">
+		<div class="container_fluid">
+			<h2 class=" wow animated fadeInUp">DORMS & PRIVATE ROOMS</h2>
+			<div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+			  <div class="carousel-inner">
+			    <div class="carousel-item active">
+			      <img class="d-block w-100" src="assets/img/room-1.jpg" alt="First slide">
+			      <div class="carousel-caption d-none d-md-block">
+				    <span>3 BED PRIVATE</span>
+				    <a href="#">Check Details<span>&rarr;</span></a>
+				  </div>
+			    </div>
+			    <div class="carousel-item">
+			      <img class="d-block w-100" src="assets/img/room-2.jpg" alt="Second slide">
+			      <div class="carousel-caption d-none d-md-block">
+				    <span>6 BED PRIVATE</span>
+				    <a href="#">Check Details<span>&rarr;</span></a>
+				  </div>
+			    </div>
+			    <div class="carousel-item">
+			      <img class="d-block w-100" src="assets/img/room-3.jpg" alt="Third slide">
+			      <div class="carousel-caption d-none d-md-block">
+				    <span>8 BED PRIVATE</span>
+				    <a href="#">Check Details<span>&rarr;</span></a>
+				  </div>
+			    </div>
+			    <div class="carousel-item">
+			      <img class="d-block w-100" src="assets/img/room-4.jpg" alt="Fourth slide">
+			      <div class="carousel-caption d-none d-md-block">
+				    <span>7 BED PRIVATE</span>
+				    <a href="#">Check Details<span>&rarr;</span></a>
+				  </div>
+			    </div>
+			  </div>
+			  <div class="carousel-item">
+			      <img class="d-block w-100" src="assets/img/room-5.jpg" alt="Fifth slide">
+			      <div class="carousel-caption d-none d-md-block">
+				    <span>5 BED PRIVATE</span>
+				    <<a href="#">Check Details<span>&rarr;</span></a>
+				  </div>
+			    </div>
+
+			    <div class="carousel-item">
+			      <img class="d-block w-100" src="assets/img/room-6.jpg" alt="Sixth slide">
+			      <div class="carousel-caption d-none d-md-block">
+				    <span>10 BED PRIVATE</span>
+				    <a href="#">Check Details<span>&rarr;</span></a>
+				  </div>
+			  </div>
+			  <div class="carousel-item">
+			      <img class="d-block w-100" src="assets/img/room-7.jpg" alt="Seventh slide">
+			      <div class="carousel-caption d-none d-md-block">
+				    <span>4 BED PRIVATE</span>
+				    <a href="#">Check Details<span>&rarr;</span></a>
+				  </div>
+			  </div>
+			  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+			    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+			    <span class="sr-only">Previous</span>
+			  </a>
+			  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+			    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+			    <span class="sr-only">Next</span>
+			  </a>
+			</div>
+		</div>
+	</section>
+	<!-- room section -->
+	<!-- counter section -->
+	<section class="counter_section">
+		<div class="container  wow animated fadeInUp">
+			<div class="row">
+				<div class="col-md-3  wow animated fadeInUp">
+					<span class="counter">2800</span>
+					<p>.<br>Guests</p>
+				</div>
+				<div class="col-md-3  wow animated fadeInUp">
+					<span class="counter">35000</span>
+					<p>.<br>Openning hours</p>
+				</div>
+				<div class="col-md-3  wow animated fadeInUp">
+					<span class="counter">99.9%</span>
+					<p>.<br>Satisfaction</p>
+				</div>
+				<div class="col-md-3  wow animated fadeInUp">
+					<span class="counter">100%</span>
+					<p>.<br>Will come back</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- counter section -->
+	<!-- testimonail section -->
+	<section class="testimonial_section">
+		<div class="container">
+			<h4 class=" wow animated fadeInUp">testimonial</h4>
+		</div>
+		<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+		  <div class="carousel-inner">
+		    <div class="carousel-item active">
+		    	<div class="container  wow animated fadeInUp">
+		    		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam porta sem malesuada magna mollis euismod. Nul id dolor id nibh ultricies vehicula ut id elit. Nullam quis risus eget urna mollis ornare leo.</p>
+			    	<i class="fas fa-caret-down"></i> 
+			    	<span>Pam Pamelar, Traveller</span>
+		    	</div>
+		    </div>
+		    <div class="carousel-item">
+		    	<div class="container  wow animated fadeInUp">
+		    		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam porta sem malesuada magna mollis euismod. Nul id dolor id nibh ultricies vehicula ut id elit. Nullam quis risus eget urna mollis ornare leo.</p>
+		    		<i class="fas fa-caret-down"></i> 
+		    		<span>John Smith, Businesman </span>
+		    	</div>
+		    </div>
+		    <div class="carousel-item">
+		    	<div class="container  wow animated fadeInUp">
+		    		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam porta sem malesuada magna mollis euismod. Nul id dolor id nibh ultricies vehicula ut id elit. Nullam quis risus eget urna mollis ornare leo.</p>
+		    		<i class="fas fa-caret-down"></i> 
+		    		<span>Angelina Cole, Traveller</span>
+		    	</div>
+		    </div>
+		  </div>
+		  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+		    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+		    <span class="sr-only">Previous</span>
+		  </a>
+		  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+		    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+		    <span class="sr-only">Next</span>
+		  </a>
+		</div>
+	</section>
+	<!-- testimonial section -->
+	<!-- gallery section -->
+	<section class="gallery_section">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+					<div class="row">
+						<div class="col-md-12 col-sm-12 col-lg-12 col-xs-12">
+							<div class="row">
+								<div class="col-md-6 col-sm-6 col-lg-6 col-xs-12 wow animated fadeInUpBig">
+									<img src="assets/img/gallary-1.jpg" alt="">
+								</div>
+								<div class="col-md-6 col-sm-6 col-lg-6 col-xs-12">
+									<div class="row">
+										<div class="col-md-6 col-lg-6 col-sm-6 col-xs-6 wow animated fadeInUpBig">
+											<img src="assets/img/gallary-2.jpg" alt="">
+										</div>
+										<div class="col-md-6 col-lg-6 col-sm-6 col-xs-6 wow animated fadeInUpBig">
+											<img src="assets/img/gallary-3.jpg" alt="">
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-md-6 col-lg-6 col-sm-6 col-xs-6 wow animated fadeInUpBig">
+											<img src="assets/img/gallary-4.jpg" alt="">
+										</div>
+										<div class="col-md-6 col-lg-6 col-sm-6 col-xs-6 wow animated fadeInUpBig">
+											<img src="assets/img/gallary-5.jpg" alt="">
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-12 col-sm-12 col-lg-12 col-xs-12">
+							<div class="row">
+								<div class="col-md-3 col-lg-3 col-sm-3 col-xs-6 wow animated fadeInUpBig">
+									<img src="assets/img/gallary-6.jpg" alt="">
+								</div>
+								<div class="col-md-3 col-lg-3 col-sm-3 col-xs-6 wow animated fadeInUpBig">
+									<img src="assets/img/gallary-7.jpg" alt="">
+								</div>
+								<div class="col-md-3 col-lg-3 col-sm-3 col-xs-6 wow animated fadeInUpBig">
+									<img src="assets/img/gallary-8.jpg" alt="">
+								</div>
+								<div class="col-md-3 col-lg-3 col-sm-3 col-xs-6 wow animated fadeInUpBig">
+									<img src="assets/img/gallary-9.jpg" alt="">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+					<div class="row">
+						<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 bg_color  wow animated fadeInUp">
+							<span>9 <br> December</span>
+						</div>
+						<div class="col-lg-9 col-md-9 col-sm-9 col-xs-9  wow animated fadeInUp">
+							<h4>Magna pars studiorum</h4>
+							<p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisici elit, sed eiusmod tempor incidunt ut labore et dolore magna...</p>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 bg_color  wow animated fadeInUp">
+							<span>9 <br> December</span>
+						</div>
+						<div class="col-lg-9 col-md-9 col-sm-9 col-xs-9  wow animated fadeInUp">
+							<h4>Sedial eiusmod tempor</h4>
+							<p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisici elit, sed eiusmod tempor incidunt ut labore et dolore magna...</p>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 bg_color_2  wow animated fadeInUp">
+							<span>9 <br> December</span>
+						</div>
+						<div class="col-lg-9 col-md-9 col-sm-9 col-xs-9  wow animated fadeInUp">
+							<h4>Gallery Post Format Title</h4>
+							<p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisici elit, sed eiusmod tempor incidunt ut labore et dolore magna...</p>
+						</div>
+					</div>
+					<a href="#">Read all news <i class="fas fa-long-arrow-alt-right"></i></a>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- gallery section -->
+	<!-- footer section -->
+	<footer class="footer_top">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-3 col-lg-3 col-sm-3 col-xs-12 wow animated fadeInUp">
+					<h5>book now</h5>
+					<p><i class="fas fa-phone"></i> +1800-222-3333</p>
+					<p><i class="fas fa-envelope"></i> sales@hotelmastert.com</p>
+					<i class="fab fa-facebook-f bg_color"></i>
+					<i class="fab fa-twitter bg_color"></i>
+					<i class="fab fa-linkedin-in bg_color"></i>
+					<i class="fab fa-google-plus-g bg_color"></i>
+					<i class="fab fa-pinterest-p bg_color"></i>
+					<i class="fab fa-instagram bg_color"></i>
+				</div>
+				<div class="col-md-3 col-lg-3 col-sm-3 col-xs-12 wow animated fadeInUp">
+					<h5>resent news</h5>
+					<a href="#"><i class="fas fa-angle-right "></i> Sem Porta Mollis Parturient</a>
+					<a href="#"><i class="fas fa-angle-right "></i> Sem Porta Mollis Parturient</a>
+					<a href="#"><i class="fas fa-angle-right "></i> Sem Porta Mollis Parturient</a>
+					<a href="#"><i class="fas fa-angle-right "></i> Sem Porta Mollis Parturient</a>
+					<a href="#"><i class="fas fa-angle-right "></i> Sem Porta Mollis Parturient</a>
+					<a href="#"><i class="fas fa-angle-right "></i> Sem Porta Mollis Parturient</a>
+					<a href="#"><i class="fas fa-angle-right "></i> Sem Porta Mollis Parturient</a>
+				</div>
+				<div class="col-md-6 col-lg-6 col-sm-6 col-xs-12 wow animated fadeInUp">
+					<h5>our awards</h5>
+					<img src="assets/img/awards-logo-dark.jpg" alt="">
+					<p>Maecenas sed diam eget risus varius blandit sit amet non magna. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed odio dui. Nullam id dolor id nibh ultricies vehicula ut id elit. Vestibulum.</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<footer class="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6 col-lg-6 col-sm-6 col-xs-12 wow animated fadeInUp">
+					<ul>
+						<li><a href="#">Home</a></li>
+						<li><a href="#">booking</a></li>
+						<li><a href="#">about</a></li>
+						<li><a href="#">contact</a></li>
+					</ul>
+				</div>
+				<div class="col-md-6 col-lg-6 col-sm-6 col-xs-12 wow animated fadeInUp">
+					<p>Copyright &copy; 2018 All Rights Reserved</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- footer section -->
+	<!-- Font Awesome CDN -->
+	<script defer src="https://use.fontawesome.com/releases/v5.2.0/js/all.js" integrity="sha384-4oV5EgaV02iISL2ban6c/RmotsABqE4yZxZLcYMAdG7FAPsyHYAPpywE9PJo+Khy" crossorigin="anonymous"></script>
+	<!-- JQuery CDN -->
+	<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+	<!-- Popper.js CDN -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	<!-- Bootstrap CDN -->
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+	<!-- WOW js -->
+	<script type="text/js" src="assets/js/wow.min.js"></script>
+	<!-- Main Script -->
+	<script type="text/js" src="assets/js/script.js"></script>
+	<script>
+		$(document).ready(function() {
+		  $(window).scroll(function() {
+		    var scroll = $(window).scrollTop();
+		    if (scroll > 100) {
+		      $(".menu").css("position", "relative");
+		    } else {
+		      $(".menu").css("position", "fixed");
+		    }    
+		  });
+		});
+
+		new WOW().init();
+	</script>
+</body>
+</html>
